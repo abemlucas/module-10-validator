@@ -1,3 +1,4 @@
+Use the number that the user inputted.
 Reverse the order of the credit card numbers.
 Take the digits found in the odd places of the reversed credit card number.
 Add those numbers and create a variable named s1.
