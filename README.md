@@ -1,4 +1,4 @@
-# Luhn-Algorithm
+# Module 10-Algorithm
 Python based interpretation of the Luhn Algorithm.
 
 Program checks if the credit card inputted is valid or not.
