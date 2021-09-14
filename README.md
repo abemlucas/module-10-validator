@@ -27,5 +27,5 @@ Record the digits if they are >9 to create partial sums. Otherwise keep the new 
 Sum up the new partial numbers or regular numbers*2 to create a variable named s2.
 ```
 ```
-If s1 + s2 = a number ending with 0 ... VALID or else FAKE
+If s1 + s2 = a number ending with 0 -> VALID or else -> FAKE
 ```
