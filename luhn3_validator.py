@@ -1,10 +1,23 @@
-import csv
+from random import randint
+from csv import writer, reader
 
-with open('numbers.csv') as csvDataFile:
-    csvReader = csv.reader(csvDataFile)
+with open('stored.csv', 'a', newline='') as csvDataFile:
+    csvWriter = writer(csvDataFile)
+    stored = []
+    for i in range(50):
+        for j in range(9):
+            value = randint(0, 9)
+            stored.append(str(value))
+            stored[0: 9] = [''.join(stored[0: 9])]
+        csvWriter.writerow(stored)
+        stored.clear()
+    csvDataFile.close()
+
+with open('stored.csv') as csvDataFile:
+    csvReader = reader(csvDataFile)
 
     for row in csvReader:
-        print("\n", row[0])
+        print(row[0])
         creditcard = row[0]
 
         Reverse = 0
