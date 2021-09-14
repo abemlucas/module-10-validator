@@ -6,7 +6,8 @@ while(creditcard > 0):
     creditcard = creditcard // 10
 
 creditcard_str = str(Reverse)
-sum1 = 0, sum2 = 0
+sum1 = 0
+sum2 = 0
 
 
 def last_digit(num):
