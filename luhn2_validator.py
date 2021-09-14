@@ -14,7 +14,8 @@ with open('numbers.csv') as csvDataFile:
             creditcard = int(creditcard) // 10
 
         creditcard_str = str(Reverse)
-        sum1 = 0, sum2 = 0
+        sum1 = 0
+        sum2 = 0
 
         def last_digit(num):
             num = str(num)
