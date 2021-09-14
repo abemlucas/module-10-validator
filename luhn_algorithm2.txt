@@ -6,6 +6,5 @@ Take the digits found in the even places of the reversed number.
 Multiply them each by 2.
 Record the digits if they are >9 to create partial sums. Otherwise keep the new number.
 Sum up the new partial numbers or regular numbers*2 to create a variable named s2.
-If s1 + s2 = a number ending with 0 ... VALID
-Else FAKE
+If s1 + s2 = a number ending with 0 . -> VALID or else -> FAKE.
 Keep Looping through the CSV file until all the numbers are checked.
